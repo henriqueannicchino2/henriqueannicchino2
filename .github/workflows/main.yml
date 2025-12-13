@@ -3,10 +3,10 @@ name: Generate Snake Game
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
 
